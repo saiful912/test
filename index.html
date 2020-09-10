@@ -1,0 +1,147 @@
+<html>
+<head>
+	<title>Basic HTML Code Tags</title>
+	<style>
+		h1{
+			margin-left: 40px;
+			margin-top: 50px;
+			background:red;
+			width:50%;
+			height:100px;
+		}
+		h1 a{
+			color:white;
+			text-decoration:none;
+			padding-left: 20px;
+		}
+		h2{
+			background: blue;
+			color:white;
+			width:70%;
+		}
+		h3{
+			background: black;
+			color:white;
+			width:20%;
+		}
+		
+		p{
+			font-size:30px;
+			line-height:50px;
+			color:green;
+		}
+		.pragraph{
+			font-size:30px;
+			line-height:50px;
+			color:yellow;
+		}
+		
+		.header-area{
+			margin: 40px 40px;
+			background: darkblue;
+			width: 50%
+		}
+		.header-area li{
+			color: red;
+			margin-top: 20px;
+		}
+		
+		.header-area li:first-child{
+			color:yellow;
+			background:green;
+			width:70%;
+		}
+		.header-area li:last-child{
+			color:yellow;
+			background:green;
+			width:70%;
+		}
+		.header-area li:nth-child(2){
+			background:gray;
+			width:90%;
+			color:white;
+		}
+		.header-area li:nth-child(3){
+			background:green;
+			width:40%;
+			color:red;
+		}
+		
+		img{
+			    width: 500px;
+				margin-left: 480px;
+				border: 18px solid red;
+				margin-bottom: 40px;
+		}
+	</style>
+	
+</head>
+<body>
+<h1>
+	<a href="https://www.facebook.com/">Facebook</a>
+</h1>
+<h2>Hello World 2</h2>
+<h3>Hello World3</h3>
+<h4>Hello World4</h4>
+<h5>Hello World5</h5>
+<h6>Hello</br> World6</h6>
+
+<hr>
+
+<a href="https://notepad-plus-plus.org/">Notepad++</a>
+
+<p>	
+	<strong>Notepad++</strong> is a free (as in “free speech” and also as in “free beer”) </br>
+	source code editor and Notepad replacement that supports several languages. </br>
+	Running in the MS Windows environment, its use is governed by GPL License
+</p>
+
+
+
+<p class="pragraph">	
+	<strong>Notepad++</strong> is a free (as in “free speech” and also as in “free beer”) </br>
+	source code editor and Notepad replacement
+</p>
+
+
+<ul class="header-area">
+	<li>One</li>
+	<li>Two</li>
+	<li>Three</li>
+	<li>Four</li>
+</ul>
+
+<ol>
+	<li>Order One</li>
+	<li>Order Two</li>
+	<li>Order Three</li>
+	<li>Order Four</li>
+</ol>
+
+
+<img src="img/download.jpg" alt="test image"/>
+<form>
+	<label>Your Name</label>
+	<input type="text"  style="margin-top:20px"/>
+	<input type="email"  placeholder="Your Mail"/>
+	<input type="password"  placeholder="Your Password"/>
+	<textarea placeholder="Your Message"></textarea>
+	<button type="submit" style="background:blue;color:#fff;">Register</button>
+</form>
+
+
+<div>
+	<input type="text"  placeholder="Your Products Name" style="margin-top:20px"/>
+	<button type="submit">Sumbit</button>
+</div>
+<div>
+	<input type="email"  placeholder="Your Company Mail" style="margin-top:20px"/>
+	<button type="submit">Sumbit</button>
+</div>
+<div>
+	<input type="password"  placeholder="Your Password" style="margin-top:20px"/>
+	<button type="submit">Sumbit</button>
+</div>
+
+</body>
+</html>
